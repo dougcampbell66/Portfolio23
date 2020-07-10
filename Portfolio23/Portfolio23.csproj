@@ -104,7 +104,7 @@
     <Content Include="static\img\1600x1000.jpg" />
     <Content Include="static\img\250x350.png" />
     <Content Include="static\img\380x700.png" />
-    <Content Include="static\img\450x600.png" />
+    <Content Include="static\img\450x6001.png" />
     <Content Include="static\img\550x500.jpg" />
     <Content Include="static\img\600x400.jpg" />
     <Content Include="static\img\DMC.png" />
@@ -112,6 +112,7 @@
     <Content Include="static\img\LearnDash.png" />
     <Content Include="static\img\home-banner-2.png" />
     <Content Include="static\img\meet-the-mountain.jpg" />
+    <Content Include="static\img\dark-back.png" />
     <Content Include="static\img\WS360.png" />
     <Content Include="static\js\custom.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
