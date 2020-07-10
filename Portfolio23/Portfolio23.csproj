@@ -1,0 +1,217 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0574BF7D-CABA-4AE9-906F-000A7A8F0C7D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Portfolio23</RootNamespace>
+    <AssemblyName>Portfolio23</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44360</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blog-details.html" />
+    <Content Include="blog-list-with-sidebar.html" />
+    <Content Include="blog-list.html" />
+    <Content Include="favicon.png" />
+    <Content Include="index-01.html" />
+    <Content Include="index-02.html" />
+    <Content Include="index-03.html" />
+    <Content Include="index-04.html" />
+    <Content Include="index.html" />
+    <Content Include="process_form.php" />
+    <Content Include="static\css\color\color-1.css" />
+    <Content Include="static\css\color\color-10.css" />
+    <Content Include="static\css\color\color-11.css" />
+    <Content Include="static\css\color\color-12.css" />
+    <Content Include="static\css\color\color-13.css" />
+    <Content Include="static\css\color\color-14.css" />
+    <Content Include="static\css\color\color-15.css" />
+    <Content Include="static\css\color\color-16.css" />
+    <Content Include="static\css\color\color-17.css" />
+    <Content Include="static\css\color\color-18.css" />
+    <Content Include="static\css\color\color-19.css" />
+    <Content Include="static\css\color\color-2.css" />
+    <Content Include="static\css\color\color-3.css" />
+    <Content Include="static\css\color\color-4.css" />
+    <Content Include="static\css\color\color-5.css" />
+    <Content Include="static\css\color\color-6.css" />
+    <Content Include="static\css\color\color-7.css" />
+    <Content Include="static\css\color\color-8.css" />
+    <Content Include="static\css\color\color-9.css" />
+    <Content Include="static\css\color\default.css" />
+    <Content Include="static\css\styles.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="static\img\100x100.jpg" />
+    <Content Include="static\img\1200x800.jpg" />
+    <Content Include="static\img\1600x1000.jpg" />
+    <Content Include="static\img\250x350.png" />
+    <Content Include="static\img\380x700.png" />
+    <Content Include="static\img\450x600.png" />
+    <Content Include="static\img\550x500.jpg" />
+    <Content Include="static\img\600x400.jpg" />
+    <Content Include="static\img\DMC.png" />
+    <Content Include="static\img\header_background.png" />
+    <Content Include="static\img\LearnDash.png" />
+    <Content Include="static\img\home-banner-2.png" />
+    <Content Include="static\img\meet-the-mountain.jpg" />
+    <Content Include="static\img\WS360.png" />
+    <Content Include="static\js\custom.js" />
+    <Content Include="static\js\jquery-3.2.1.min.js" />
+    <Content Include="static\js\jquery-migrate-3.0.0.min.js" />
+    <Content Include="static\js\mail_send.js" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.css" />
+    <Content Include="static\plugin\bootstrap\css\bootstrap.min.css" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.js" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.min.js" />
+    <Content Include="static\plugin\bootstrap\js\popper.min.js" />
+    <Content Include="static\plugin\font-awesome\css\fontawesome-all.css" />
+    <Content Include="static\plugin\font-awesome\css\fontawesome-all.min.css" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.svg" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.svg" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.svg" />
+    <Content Include="static\plugin\isotope\isotope.pkgd.min.js" />
+    <Content Include="static\plugin\magnific\jquery.magnific-popup.js" />
+    <Content Include="static\plugin\magnific\jquery.magnific-popup.min.js" />
+    <Content Include="static\plugin\magnific\magnific-popup.css" />
+    <Content Include="static\plugin\owl-carousel\css\owl.carousel.css" />
+    <Content Include="static\plugin\owl-carousel\css\owl.carousel.min.css" />
+    <Content Include="static\plugin\owl-carousel\js\owl.carousel.js" />
+    <Content Include="static\plugin\owl-carousel\js\owl.carousel.min.js" />
+    <Content Include="static\plugin\particles\particles-app.js" />
+    <Content Include="static\plugin\particles\particles.js" />
+    <Content Include="static\plugin\particles\particles.min.js" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.svg" />
+    <Content Include="static\plugin\themify-icons\themify-icons.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.js.map" />
+    <Content Include="static\plugin\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.eot" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.woff" />
+    <Content Include="static\plugin\font-awesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="static\plugin\particles\particles.json" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.eot" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.ttf" />
+    <Content Include="static\plugin\themify-icons\fonts\themify.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61865</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44360/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
