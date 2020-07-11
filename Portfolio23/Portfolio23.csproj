@@ -108,8 +108,13 @@
     <Content Include="static\img\550x500.jpg" />
     <Content Include="static\img\600x400.jpg" />
     <Content Include="static\img\Adventure.png" />
+    <Content Include="static\img\AI.png" />
+    <Content Include="static\img\Automation.png" />
+    <Content Include="static\img\AI2.png" />
     <Content Include="static\img\DMC.png" />
+    <Content Include="static\img\Food.png" />
     <Content Include="static\img\GamiBoss.png" />
+    <Content Include="static\img\Gamification.png" />
     <Content Include="static\img\header_background.png" />
     <Content Include="static\img\Health.png" />
     <Content Include="static\img\LearnDash.png" />
@@ -121,6 +126,7 @@
     <Content Include="static\img\Nutrition.png" />
     <Content Include="static\img\Resolution.png" />
     <Content Include="static\img\Safety.png" />
+    <Content Include="static\img\Social.png" />
     <Content Include="static\img\WS360.png" />
     <Content Include="static\js\custom.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
