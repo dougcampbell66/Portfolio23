@@ -102,6 +102,7 @@
     <Content Include="static\img\100x100.jpg" />
     <Content Include="static\img\1200x800.jpg" />
     <Content Include="static\img\1600x1000.jpg" />
+    <Content Include="static\img\2.png" />
     <Content Include="static\img\250x350.png" />
     <Content Include="static\img\380x700.png" />
     <Content Include="static\img\450x6001.png" />
