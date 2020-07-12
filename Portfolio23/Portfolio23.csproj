@@ -110,6 +110,7 @@
     <Content Include="static\img\600x400.jpg" />
     <Content Include="static\img\Adventure.png" />
     <Content Include="static\img\AI.png" />
+    <Content Include="static\img\api-collaboration.png" />
     <Content Include="static\img\Automation.png" />
     <Content Include="static\img\AI2.png" />
     <Content Include="static\img\Bug Tracker.png" />
