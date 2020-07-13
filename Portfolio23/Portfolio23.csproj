@@ -114,9 +114,12 @@
     <Content Include="static\img\Automation.png" />
     <Content Include="static\img\AI2.png" />
     <Content Include="static\img\Bug Tracker.png" />
+    <Content Include="static\img\Bug1.png" />
+    <Content Include="static\img\BugSmall.png" />
     <Content Include="static\img\carolinainvests.png" />
-    <Content Include="static\img\SunsetHills.png" />
     <Content Include="static\img\DMC.png" />
+    <Content Include="static\img\Fizz1.png" />
+    <Content Include="static\img\FizzsSmall.png" />
     <Content Include="static\img\Food.png" />
     <Content Include="static\img\GamiBoss.png" />
     <Content Include="static\img\Gamification.png" />
@@ -132,6 +135,13 @@
     <Content Include="static\img\Resolution.png" />
     <Content Include="static\img\Safety.png" />
     <Content Include="static\img\Social.png" />
+    <Content Include="static\img\Sum of All Fears.png" />
+    <Content Include="static\img\Sum1.png" />
+    <Content Include="static\img\SumSmall.png" />
+    <Content Include="static\img\Sunset Hills.png" />
+    <Content Include="static\img\Sunset1.png" />
+    <Content Include="static\img\SunsetSmall.png" />
+    <Content Include="static\img\tacocat.png" />
     <Content Include="static\img\WS360.png" />
     <Content Include="static\js\custom.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
