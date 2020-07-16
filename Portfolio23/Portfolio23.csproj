@@ -103,6 +103,7 @@
     <Content Include="static\img\1200x800.jpg" />
     <Content Include="static\img\1600x1000.jpg" />
     <Content Include="static\img\2.png" />
+    <Content Include="static\img\235.png" />
     <Content Include="static\img\250x350.png" />
     <Content Include="static\img\380x700.png" />
     <Content Include="static\img\450x6001.png" />
@@ -145,6 +146,7 @@
     <Content Include="static\img\Sunset1.png" />
     <Content Include="static\img\SunsetSmall.png" />
     <Content Include="static\img\tacocat.png" />
+    <Content Include="static\img\Mtn23.png" />
     <Content Include="static\img\WS360.png" />
     <Content Include="index23.html" />
     <Content Include="static\js\custom.js" />
