@@ -113,10 +113,13 @@
     <Content Include="static\img\api-collaboration.png" />
     <Content Include="static\img\Automation.png" />
     <Content Include="static\img\AI2.png" />
+    <Content Include="static\img\black.png" />
     <Content Include="static\img\Bug Tracker.png" />
     <Content Include="static\img\Bug1.png" />
     <Content Include="static\img\BugSmall.png" />
     <Content Include="static\img\carolinainvests.png" />
+    <Content Include="static\img\dark-3.png" />
+    <Content Include="static\img\dark-mtn.png" />
     <Content Include="static\img\DMC.png" />
     <Content Include="static\img\Fizz1.png" />
     <Content Include="static\img\FizzsSmall.png" />
@@ -143,6 +146,7 @@
     <Content Include="static\img\SunsetSmall.png" />
     <Content Include="static\img\tacocat.png" />
     <Content Include="static\img\WS360.png" />
+    <Content Include="index23.html" />
     <Content Include="static\js\custom.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
     <Content Include="static\js\jquery-migrate-3.0.0.min.js" />
