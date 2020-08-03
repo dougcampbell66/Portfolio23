@@ -148,7 +148,6 @@
     <Content Include="static\img\tacocat.png" />
     <Content Include="static\img\Mtn23.png" />
     <Content Include="static\img\WS360.png" />
-    <Content Include="index23.html" />
     <Content Include="static\js\custom.js" />
     <Content Include="static\js\jquery-3.2.1.min.js" />
     <Content Include="static\js\jquery-migrate-3.0.0.min.js" />
